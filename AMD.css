@@ -23,7 +23,7 @@
   --amd3: #bf2011;
   --amd4: #d9580d;
   --amd5: #f2780c;
-  --amd6: #00000081;
+  --amd6: #000000b9;
 
   --fonte-padrao: arial, verdana, helvetica, sans-serif;
   --fonte-mine: "mine", "cursive";
@@ -53,12 +53,20 @@ main {
   background-color: var(--amd4);
   padding: 5px;
   color: white;
+  max-width: 1150px;
+  min-width: 320px;
 }
 
 main h1 {
-  background-image: linear-gradient(to right, var(--amd6), var(--amd4));
+  background-image: linear-gradient(to right, var(--amd6), transparent);
+  font-size: 1.5em;
   border-radius: 5px;
-  height: 55px;
+  max-width: 1017px;
+  min-width: 320px;
+  max-height: 250px;
+  text-indent: 5px;
+  margin: -5px -10px 0px -10px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 main img {
@@ -66,10 +74,10 @@ main img {
   margin: auto;
   margin-bottom: 10px;
   max-width: 450px;
-  min-width: 250px;
+  min-width: 150px;
   border-style: solid;
   border-radius: 10px;
-  padding: 5px;
+  padding: 2px;
 }
 
 .buttons {
