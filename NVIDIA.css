@@ -19,10 +19,8 @@
   button {
     width: 150px;
     text-align: center;
-
   }
 }
-
 
 :root {
   --nvidia6: #0000003d;
@@ -109,7 +107,7 @@ button {
   padding: 5%;
   border: 2px solid #000;
   border-radius: 5px;
-  font-size: 1.0em;
+  font-size: 1em;
   font-weight: bolder;
   color: white;
   background-color: #444;
