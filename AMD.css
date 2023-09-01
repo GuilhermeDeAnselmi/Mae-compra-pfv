@@ -36,7 +36,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(to bottom, var(--amd3), var(--amd2));
+  background-image: linear-gradient(to bottom, var(--amd3), var(--amd4));
   color: var(--amd0);
   padding: 15px;
 }
@@ -50,7 +50,7 @@ header p {
 }
 
 main {
-  background-color: var(--amd4);
+  background-image: url(src/imagens/i427834\ \(Personalizado\).jpeg);
   padding: 5px;
   color: white;
   max-width: 1800px;
@@ -116,7 +116,7 @@ a:active {
 }
 
 footer {
-  background-image: linear-gradient(to bottom, var(--amd3), var(--amd2));
+  background-image: linear-gradient(to bottom, var(--amd4), var(--amd3));
   color: var(--amd0);
   padding: 30px;
 }

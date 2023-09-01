@@ -49,14 +49,15 @@ header p {
 }
 
 main {
-  background-color: var(--nvidia3);
+  background-image: url(src/imagens/2016-07-27-titan-x1\ \(Grande\).jpeg);
   padding: 5px;
   max-width: 1800px;
   min-width: 320px;
+  color: white;
 }
 
 main h1 {
-  background-image: linear-gradient(to right, var(--nvidia6), var(--nvidia3));
+  background-image: linear-gradient(to right, var(--nvidia3), transparent);
   font-size: 1.5em;
   border-radius: 5px;
   max-width: 1017px;
