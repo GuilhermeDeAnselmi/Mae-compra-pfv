@@ -9,6 +9,21 @@
   src: url(src/Font/Minecraftia-Regular.ttf) format("truetype");
 }
 
+@media (max-width: 568px) {
+  main img {
+    width: 320px;
+  }
+}
+
+@media (max-width: 568px) {
+  button {
+    width: 150px;
+    text-align: center;
+
+  }
+}
+
+
 :root {
   --nvidia6: #0000003d;
   --nvidia0: #0d0d0d;
@@ -94,14 +109,13 @@ button {
   padding: 5%;
   border: 2px solid #000;
   border-radius: 5px;
-  font-size: 1.1em;
+  font-size: 1.0em;
   font-weight: bolder;
   color: white;
   background-color: #444;
   box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
-  max-width: 450px;
-  min-width: 250px;
-  
+  max-width: 650px;
+  min-width: 190px;
 }
 
 button a {
