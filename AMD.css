@@ -51,14 +51,16 @@ header p {
 
 main {
   background-image: url(src/imagens/i427834\ \(Personalizado\).jpeg);
+  background-size: cover;
+  background-position: center center;
   padding: 5px;
   color: white;
-  max-width: 1800px;
+  max-width: 1900px;
   min-width: 320px;
 }
 
 main h1 {
-  background-image: linear-gradient(to right, var(--amd6), transparent);
+  background-image: linear-gradient(to right, var(--amd2), transparent);
   font-size: 1.5em;
   border-radius: 5px;
   max-width: 1017px;
