@@ -68,13 +68,13 @@ main {
   background-position: center center;
   padding: 5px;
   color: white;
-  max-width: 1900px;
+  max-width: 2000px;
   min-width: 320px;
 }
 
 main h1 {
   background-image: linear-gradient(to right, var(--amd2), transparent);
-  font-size: 1.5em;
+  font-size: 1.4em;
   border-radius: 5px;
   max-width: 1017px;
   min-width: 320px;
