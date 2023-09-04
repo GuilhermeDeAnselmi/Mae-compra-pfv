@@ -79,7 +79,7 @@ main {
 
 main h1 {
   background-image: linear-gradient(to right, var(--nvidia3), transparent);
-  font-size: 1.5em;
+  font-size: 1.4em;
   border-radius: 5px;
   max-width: 866px;
   min-width: 320px;
