@@ -16,6 +16,12 @@
 }
 
 @media (max-width: 568px) {
+  main h1 {
+    width: 320px;
+  }
+}
+
+@media (max-width: 568px) {
   button {
     width: 150px;
     text-align: center;
@@ -73,9 +79,9 @@ main {
 
 main h1 {
   background-image: linear-gradient(to right, var(--nvidia3), transparent);
-  font-size: 1.4em;
+  font-size: 1.5em;
   border-radius: 5px;
-  max-width: 1017px;
+  max-width: 866px;
   min-width: 320px;
   max-height: 250px;
   text-indent: 5px;
