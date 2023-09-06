@@ -66,6 +66,7 @@ main {
   background-image: url(src/imagens/i427834\ \(Personalizado\).jpeg);
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   padding: 5px;
   color: white;
   max-width: 2000px;

@@ -47,6 +47,10 @@
   --fonte-mine: "mine", "cursive";
 }
 
+.fundo_preto{
+  background-color: rgba(0, 0, 0, 0.76);
+}
+
 body {
   background-color: #3ddc84;
   font-family: var(--fonte-mine);
@@ -71,6 +75,7 @@ main {
   background-image: url(src/imagens/2016-07-27-titan-x1\ \(Grande\).jpeg);
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   padding: 5px;
   max-width: 2000px;
   min-width: 320px;
