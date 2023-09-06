@@ -48,6 +48,11 @@ body {
   font-size: 1.2em;
 }
 
+.fundo_preto{
+  background-color: rgba(0, 0, 0, 0.459);
+  margin-left: -5px;
+}
+
 header {
   background-image: linear-gradient(to bottom, var(--amd3), var(--amd4));
   color: var(--amd0);
@@ -81,8 +86,9 @@ main h1 {
   min-width: 320px;
   max-height: 250px;
   text-indent: 5px;
-  margin: -5px -10px 0px -10px;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 0px 0px;
+  margin-top: -6px;
+  margin-left: -5px;
 }
 
 main img {

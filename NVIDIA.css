@@ -48,7 +48,8 @@
 }
 
 .fundo_preto{
-  background-color: rgba(0, 0, 0, 0.76);
+  background-color: rgba(0, 0, 0, 0.596);
+  margin-left: -5px;
 }
 
 body {
@@ -90,8 +91,9 @@ main h1 {
   min-width: 320px;
   max-height: 250px;
   text-indent: 5px;
-  margin: -5px -10px 0px -10px;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 0px 0px;
+  margin-top: -6px;
+  margin-left: -5px;
 }
 
 main img {
